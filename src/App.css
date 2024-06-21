@@ -6,11 +6,19 @@
 }
 
 .envoltura {
-  display: inline;
+border: 5px solid red;
+padding: 10px;
+background-color: rgba(231, 130, 93, 0.932);
+
 }
 
 .envoltura > div {
   display: inline-block;
+  border:1px solid black;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 
 .logo {
@@ -47,4 +55,7 @@
 
 .read-the-docs {
   color: #888;
+}
+footer{
+list-style: none;
 }
